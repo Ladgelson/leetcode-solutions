@@ -6,8 +6,9 @@ Welcome to the LeetCode Solutions Repository! This project aims to provide compr
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Directory Structure](#directory-structure)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+  - [Pre-requisites](#pre-requisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -25,9 +26,84 @@ This repository contains a collection of solutions to various problems from Leet
 - **Detailed Explanations**: Each solution includes a detailed explanation of the approach and the code.
 - **Test Cases**: Sample test cases are provided to help understand the problem and validate the solutions.
 
+## Directory Structure
+
+The repository is organized by difficulty level, problem number, and programming language. Here's an example of the directory structure:
+
+```bash
+├── easy
+│ ├── 1_two_sum
+│ │ ├── c
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.c
+│ │ ├── cpp
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.cpp
+│ │ ├── java
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── Solution.java
+│ │ └── python
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.py
+│ └── ...
+├── medium
+│ ├── 2_add_two_numbers
+│ │ ├── c
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.c
+│ │ ├── cpp
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.cpp
+│ │ ├── java
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── Solution.java
+│ │ └── python
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.py
+│ └── ...
+├── hard
+│ ├── 3_longest_substring_without_repeating_characters
+│ │ ├── c
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.c
+│ │ ├── cpp
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.cpp
+│ │ ├── java
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── Solution.java
+│ │ └── python
+│ │ │ ├── username
+│ │ │ │ ├──README.md
+│ │ │ │ └── solution.py
+│ └── ...
+```
+
+Each problem folder is named using the format `problemNumber_problemName` (e.g., `1_two_sum`). Inside each problem folder, there are subfolders for each programming language (e.g., `c`, `cpp`, `java`, `python`). Within each language folder, individual contributors can create a folder named with their GitHub username, containing their solution and a `README.md` file explaining their approach.
+
+### Example:
+easy > 1_two_sum > java > Ladgelson
+
+Inside the folder, you will find:
+
+README.md (explaining the solution)
+Solution.java (the code of the solution)
+
+
 ## Getting Started
 
-### Prerequisites
+### Pre-requisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -62,5 +138,28 @@ To use the solutions in this repository:
 Example:
 
 ```bash
-cd solutions/arrays/two_sum/python
-python two_sum.py
+cd easy/1_two_sum/java/Ladgelson
+java Solution.java
+```
+
+## Contributing
+We welcome contributions from the community! To contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Make your changes and commit them (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/your-feature).
+- Open a Pull Request pointing to main.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+If you have any questions or suggestions, feel free to reach out:
+
+GitHub Issues: https://github.com/your-username/leetcode-solutions/issues
+Email: micaiasladgelsondasilva@gmail.com
+Happy coding!
+
+
+This README file should provide clear instructions on the structure of the repository and how to contribute.
